@@ -1,0 +1,225 @@
+/* Ctrl + / - запись комментария */
+
+/* Логотип */
+:root {
+  --blaсk-color: #212121;
+  --blu-color: #2196f3;
+  --grey-color: #757575;
+  --white-color: #ffffff;
+  --background-grey: #2f303a;
+  --background-filter: #f5f4fa;
+}
+span {
+  font-family: "Raleway", sans-serif;
+  font-weight: bold;
+  font-size: 26px;
+  line-height: 1.19;
+  color: var(--blaсk-color);
+}
+/* Шрифты на бади*/
+body {
+  font-family: "Roboto", sans-serif;
+  color: var(--black-color);
+}
+a {
+  text-decoration: none;
+}
+
+li {
+  list-style: none;
+}
+button {
+  font-family: Roboto;
+  cursor: pointer;
+}
+.order {
+  width: 200px;
+  height: 50px;
+  left: 700px;
+  top: 430px;
+  color: var(--white-color);
+  background-color: var(--blu-color);
+}
+.order {
+  font-style: normal;
+  font-weight: bold;
+  font-size: 16px;
+  line-height: 1.87px;
+  display: flex;
+  align-items: center;
+  text-align: center;
+  letter-spacing: 0.06em;
+}
+/* LOGO */
+.logo :hover,
+.logo :focus {
+  color: var(--blu-color);
+}
+.web {
+  color: var(--blu-color);
+}
+
+/* Кнопки навигации */
+.nav a {
+  font-style: normal;
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 1.14;
+  letter-spacing: 0.02em;
+  color: var(--black-color);
+}
+.nav :hover,
+.nav :focus {
+  color: var(--blu-color);
+}
+.head-cont {
+  font-style: normal;
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 1.14;
+  color: var(--grey-color);
+}
+.head-cont:hover,
+.head-cont:focus {
+  color: var(--blu-color);
+}
+
+.hero {
+  background-color: var(--background-grey);
+}
+h1 {
+  font-style: normal;
+  font-weight: 900;
+  font-size: 44px;
+  line-height: 1.36;
+  text-align: center;
+  letter-spacing: 0.06em;
+  text-transform: uppercase;
+  color: var(--white-color);
+}
+.advantage h3 {
+  font-style: normal;
+  font-weight: bold;
+  font-size: 14px;
+  line-height: 1.14;
+  letter-spacing: 0.03em;
+  text-transform: uppercase;
+}
+.advantage p {
+  font-style: normal;
+  font-weight: normal;
+  font-size: 14px;
+  line-height: 1.71;
+  letter-spacing: 0.03em;
+  color: var(--grey-color);
+}
+h2 {
+  font-style: normal;
+  font-weight: bold;
+  font-size: 36px;
+  line-height: 1.16;
+  text-align: center;
+  letter-spacing: 0.03em;
+}
+.person h3 {
+  font-style: normal;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.18;
+  text-align: center;
+  letter-spacing: 0.03em;
+  color: var(--blaсk-color);
+}
+.person p {
+  font-style: normal;
+  font-weight: normal;
+  font-size: 16px;
+  line-height: 1.18;
+  text-align: center;
+  letter-spacing: 0.03em;
+  color: var(--grey-color);
+}
+footer {
+  background-color: var(--background-grey);
+}
+.web-blu {
+  color: var(--blu-color);
+}
+.studio-white {
+  color: var(--white-color);
+}
+.address {
+  font-style: normal;
+  font-weight: normal;
+  font-size: 14px;
+  line-height: 1.71;
+  letter-spacing: 0.03em;
+  color: var(--white-color);
+}
+.address:hover,
+.address:focus {
+  color: var(--blu-color);
+}
+.con-foot {
+  font-style: normal;
+  font-weight: normal;
+  font-size: 14px;
+  line-height: 1.71;
+  letter-spacing: 0.03em;
+  color: rgba(255, 255, 255, 0.6);
+}
+.con-foot:hover,
+.con-foot:focus {
+  color: var(--blu-color);
+}
+
+/* portfolio */
+
+.filter {
+  font-style: normal;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 26px;
+  text-align: center;
+  letter-spacing: 0.03em;
+  border-radius: 4px;
+}
+.filter {
+  background-color: var(--background-filter);
+  color: var(--blak-color);
+}
+.filter:hover,
+.filter:focus {
+  background-color: var(--blu-color);
+  color: var(--white-color);
+}
+
+.project h3 {
+  font-style: normal;
+  font-weight: bold;
+  font-size: 18px;
+  line-height: 36px;
+  letter-spacing: 0.06em;
+  color: var(--blaсk-color);
+}
+.project p {
+  font-style: normal;
+  font-weight: normal;
+  font-size: 16px;
+  line-height: 1.87;
+  letter-spacing: 0.03em;
+  color: var(--grey-color);
+}
+.project li {
+  width: 370px;
+  height: 404px;
+  left: 1015px;
+  top: 1130px;
+  background-color: var(--white-color);
+  border: 1px solid #eeeeee;
+  box-sizing: border-box;
+}
+.project :hover,
+.project :focus {
+  background-color: var(--white-color);
+}
