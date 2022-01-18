@@ -25,6 +25,13 @@ ul {
   margin: 0px;
   padding: 0px;
 }
+.container {
+  width: 1200px;
+  padding-left: 15px;
+  padding-right: 15px;
+  margin: auto;
+  outline: 5px solid red;
+}
 span {
   font-family: "Raleway", sans-serif;
   font-weight: bold;
@@ -48,25 +55,15 @@ button {
   font-family: Roboto;
   cursor: pointer;
 }
-.order {
-  width: 200px;
-  height: 50px;
-  left: 700px;
-  top: 430px;
-  color: var(--white-color);
-  background-color: var(--blu-color);
-}
-.order {
-  font-style: normal;
-  font-weight: bold;
-  font-size: 16px;
-  line-height: 1.87px;
-  display: flex;
-  align-items: center;
-  text-align: center;
-  letter-spacing: 0.06em;
-}
+
 /* LOGO */
+header {
+  padding-top: 24px;
+  padding-bottom: 24px;
+}
+.logo {
+  margin-right: 93px;
+}
 .logo :hover,
 .logo :focus {
   color: var(--blu-color);
@@ -76,7 +73,17 @@ button {
 }
 
 /* Кнопки навигации */
-.nav a {
+.head-con {
+  display: flex;
+  align-items: center;
+}
+.list-nav :nth-child(-n + 2) {
+  margin-right: 25px;
+}
+.list-nav {
+  display: flex;
+}
+.list-nav a {
   font-style: normal;
   font-weight: 500;
   font-size: 14px;
@@ -84,9 +91,12 @@ button {
   letter-spacing: 0.02em;
   color: var(--black-color);
 }
-.nav :hover,
-.nav :focus {
+.list-nav :hover,
+.list-nav :focus {
   color: var(--blu-color);
+}
+.con {
+  display: flex;
 }
 .head-cont {
   font-style: normal;
@@ -101,9 +111,12 @@ button {
 }
 
 .hero {
+  padding-top: 200px;
+  padding-bottom: 200px;
   background-color: var(--background-grey);
 }
 h1 {
+  margin-bottom: 40px;
   font-style: normal;
   font-weight: 900;
   font-size: 44px;
@@ -113,7 +126,33 @@ h1 {
   text-transform: uppercase;
   color: var(--white-color);
 }
+.order {
+  display: flex;
+  width: 200px;
+  height: 50px;
+  left: 700px;
+  top: 430px;
+  color: var(--white-color);
+  background-color: var(--blu-color);
+}
+.order {
+  font-style: normal;
+  font-weight: bold;
+  font-size: 16px;
+  line-height: 1.87px;
+  align-items: center;
+  text-align: center;
+  letter-spacing: 0.06em;
+}
+.advabtage-section {
+  padding-top: 94px;
+  padding-bottom: 94px;
+}
+.advantage {
+  display: flex;
+}
 .advantage h3 {
+  padding-bottom: 10px;
   font-style: normal;
   font-weight: bold;
   font-size: 14px;
@@ -129,13 +168,36 @@ h1 {
   letter-spacing: 0.03em;
   color: var(--grey-color);
 }
-h2 {
+.jobs {
+  padding-top: 94px;
+  padding-bottom: 94px;
+}
+.list-job {
+  display: flex;
+}
+.jobs h2 {
+  margin-bottom: 50px;
   font-style: normal;
   font-weight: bold;
   font-size: 36px;
   line-height: 1.16;
   text-align: center;
   letter-spacing: 0.03em;
+}
+.timate {
+  padding-top: 94px;
+  padding-bottom: 94px;
+}
+.timate h2 {
+  margin-bottom: 50px;
+  font-weight: bold;
+  font-size: 36px;
+  line-height: 1.16;
+  text-align: center;
+  letter-spacing: 0.03em;
+}
+.person {
+  display: flex;
 }
 .person h3 {
   font-style: normal;
@@ -156,7 +218,12 @@ h2 {
   color: var(--grey-color);
 }
 footer {
+  padding-top: 60px;
+  padding-bottom: 60px;
   background-color: var(--background-grey);
+}
+.foot-logo {
+  margin-bottom: 200px;
 }
 .web-blu {
   color: var(--blu-color);
@@ -190,7 +257,13 @@ footer {
 }
 
 /* portfolio */
-
+.section-filter {
+  padding-top: 94px;
+  padding-bottom: 94px;
+}
+.list-fil-butt {
+  display: flex;
+}
 .filter {
   font-style: normal;
   font-weight: 500;

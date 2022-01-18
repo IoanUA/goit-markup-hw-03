@@ -5,7 +5,7 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Portfolio</title>
-        <link rel="stylesheet" href="https://github.com/sindresorhus/modern-normalize/blob/main/modern-normalize.css">
+        <link rel="stylesheet" href="./css/modern-normalize.css">
         <link rel="preconnect" href="https://fonts.googleapis.com">
         <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
         <link href="https://fonts.googleapis.com/css2?family=Raleway:wght@700&family=Roboto:wght@400;500;700;900&display=swap"
@@ -14,21 +14,24 @@
 </head>
 <body>
     <header>
+        <div class="container head-con">
         <a class="logo" href="./index.html"><span class="web">Web</span><Span>Studio</Span></a>
         <nav>
-            <ul class="nav">
+            <ul class="list-nav">
                 <li><a href="./index.html">Студия</a></li>
                 <li><a href="./portfolio.html">Портфолио</a></li>
                 <li><a href="">Контакты</a></li>
             </ul>
-        </nav>
+        </nav class="con">
         <a class="head-cont" href="mailto:info@devstudio.com">info@devstudio.com</a>
         <a class="head-cont" href="tel:+380961111111">+38 096 111 11 11</a>
+        </div>
     </header>
     <main>
-        <section>
+        <section class="section-filter">
+            <div class="container">
                 <h2 hidden>filter</h2>
-            <ul>
+            <ul class="list-fil-butt">
                 <li><button class="filter" type="button">Все</button></li>
                 <li><button class="filter" type="button">Веб-сайты</button></li>
                 <li><button class="filter" type="button">Приложения</button></li>
@@ -83,9 +86,11 @@
                     <p>Приложение</p></a>
                 </li>
             </ul>
+        </div>
         </section>
     </main>
     <footer>
+        <div class="container">
         <a class="logo" href="./index.html"><span class="web-blu">Web</span><span class="studio-white">Studio</span></a>
         <address>
             <ul>
@@ -94,6 +99,7 @@
                 <li><a class="con-foot" href="tel:+380991111111">+38 099 111 11 11</a></li>
             </ul>
         </address>
+    </div>
     </footer>
 </body>
 </html>

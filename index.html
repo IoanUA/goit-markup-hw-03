@@ -5,7 +5,7 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Studio</title>
-        <link rel="stylesheet" href="https://github.com/sindresorhus/modern-normalize/blob/main/modern-normalize.css">
+        <link rel="stylesheet" href="./css/modern-normalize.css">
         <link rel="preconnect" href="https://fonts.googleapis.com">
         <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
         <link href="https://fonts.googleapis.com/css2?family=Raleway:wght@700&family=Roboto:wght@400;500;700;900&display=swap"
@@ -14,23 +14,29 @@
 </head>
 <body>
     <header>
-        <a class="logo" href="./index.html"><span class="web">Web</span><Span>Studio</Span></a>
+        <div class="container head-con">
+            <a class="logo" href="./index.html"><span class="web">Web</span><Span>Studio</Span></a>
         <nav>
-            <ul class="nav">
+            <ul class="list-nav">
                 <li><a href="./index.html">Студия</a></li>
                 <li><a href="./portfolio.html">Портфолио</a></li>
                 <li><a href="">Контакты</a></li>
             </ul>
         </nav>
-        <a class="head-cont" href="mailto:info@devstudio.com">info@devstudio.com</a>  
-        <a class="head-cont" href="tel:+380961111111">+38 096 111 11 11</a>
+        <div class="con">
+            <a class="head-cont" href="mailto:info@devstudio.com">info@devstudio.com</a>  
+            <a class="head-cont" href="tel:+380961111111">+38 096 111 11 11</a>
+        </div>
     </header>
     <main>
         <section class="hero">
+            <div class="container">
             <h1>Эффективные решения <br> для вашего бизнеса</h1>
             <button class="order" type="button">Заказать услугу</button>
+            </div>
         </section>
-        <section>
+        <section class="advabtage-section">
+            <div class="container">
             <ul class="advantage">
                 <li>
                     <h3>Внимание к деталям</h3>
@@ -49,10 +55,12 @@
                     <p>Значимость этих проблем настолько очевидна, что реализация плановых заданий.</p>
                 </li>
             </ul>
+            </div>
         </section>
-        <section>
+        <section class="jobs">
+            <div class="container">
             <h2>Чем мы занимаемся</h2>
-            <ul>
+            <ul class="list-job">
                 <li>
                     <img src="./images/img0.jpg" alt="работа за ноутбуком" width="370" height="294">
                 </li>
@@ -63,8 +71,10 @@
                     <img src="./images/imgplansh.jpg" alt="шестигранник на планшете" width="370" height="294">
                 </li>
             </ul>
+            </div>
         </section>
-        <section>
+        <section class="timate">
+            <div class="container">
                 <h2>Наша команда</h2>
             <ul class="person">
                 <li>
@@ -88,17 +98,20 @@
                     <p lang="en">UI Designer</p>
                 </li>
             </ul>
+            </div>
         </section>
     </main>
-    <footer >
-        <a class="logo" href="./index.html"><span class="web-blu">Web</span><span class="studio-white">Studio</span></a>
+    <footer>
+        <div class="container">
+        <a class="logo foot-logo" href="./index.html"><span class="web-blu">Web</span><span class="studio-white">Studio</span></a>
         <address>
-            <ul>
+            <ul class="list-address">
                 <li><a class="address" href="https://goo.gl/maps/LBsLjiu8UBdfBNSw5" target="_blank">г.Киев, пр-т Леси Украинки, 26</a></li>
                 <li><a class="con-foot" href="mailto:info@example.com">info@example.com</a></li>
                 <li><a class="con-foot" href="tel:+380991111111">+38 099 111 11 11</a></li>
             </ul>
         </address>
+    </div>
     </footer>
 </body>
 
