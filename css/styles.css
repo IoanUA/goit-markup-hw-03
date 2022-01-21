@@ -1,4 +1,4 @@
-/* Ctrl + / - запись комментария */
+/* Ctrl + / - запись комментария
 
 /* Логотип */
 :root {
@@ -8,6 +8,8 @@
   --white-color: #ffffff;
   --background-grey: #2f303a;
   --background-filter: #f5f4fa;
+
+  --margin-filter: 30px;
 }
 * {
   box-sizing: border-box;
@@ -30,7 +32,7 @@ ul {
   padding-left: 15px;
   padding-right: 15px;
   margin: auto;
-  outline: 5px solid red;
+  /* outline: 5px solid red; */
 }
 span {
   font-family: "Raleway", sans-serif;
@@ -96,7 +98,10 @@ header {
   color: var(--blu-color);
 }
 .con {
-  display: flex;
+  margin-left: auto;
+}
+.con a + a {
+  margin-left: 50px;
 }
 .head-cont {
   font-style: normal;
@@ -128,6 +133,7 @@ h1 {
 }
 .order {
   display: flex;
+  margin: auto;
   width: 200px;
   height: 50px;
   left: 700px;
@@ -141,6 +147,7 @@ h1 {
   font-size: 16px;
   line-height: 1.87px;
   align-items: center;
+  justify-content: center;
   text-align: center;
   letter-spacing: 0.06em;
 }
@@ -151,8 +158,11 @@ h1 {
 .advantage {
   display: flex;
 }
+.advantage li + li {
+  margin-left: 30px;
+}
 .advantage h3 {
-  padding-bottom: 10px;
+  margin-bottom: 10px;
   font-style: normal;
   font-weight: bold;
   font-size: 14px;
@@ -175,6 +185,9 @@ h1 {
 .list-job {
   display: flex;
 }
+.list-job li + li {
+  margin-left: 30px;
+}
 .jobs h2 {
   margin-bottom: 50px;
   font-style: normal;
@@ -187,6 +200,7 @@ h1 {
 .timate {
   padding-top: 94px;
   padding-bottom: 94px;
+  background: #f5f4fa;
 }
 .timate h2 {
   margin-bottom: 50px;
@@ -199,7 +213,14 @@ h1 {
 .person {
   display: flex;
 }
+.person li + li {
+  margin-left: 30px;
+}
+.person img {
+  margin-bottom: 30px;
+}
 .person h3 {
+  margin-bottom: 10px;
   font-style: normal;
   font-weight: 500;
   font-size: 16px;
@@ -223,7 +244,8 @@ footer {
   background-color: var(--background-grey);
 }
 .foot-logo {
-  margin-bottom: 200px;
+  margin-bottom: 20px;
+  display: flex;
 }
 .web-blu {
   color: var(--blu-color);
@@ -231,6 +253,11 @@ footer {
 .studio-white {
   color: var(--white-color);
 }
+
+.list-address :nth-child(1n) {
+  margin-bottom: 9px;
+}
+
 .address {
   font-style: normal;
   font-weight: normal;
@@ -263,6 +290,11 @@ footer {
 }
 .list-fil-butt {
   display: flex;
+  margin-bottom: 50px;
+  justify-content: center;
+}
+.list-fil-butt li + li {
+  margin-left: 8px;
 }
 .filter {
   font-style: normal;
@@ -282,6 +314,12 @@ footer {
   background-color: var(--blu-color);
   color: var(--white-color);
 }
+.project {
+  display: flex;
+  flex-wrap: wrap;
+  margin-left: calc(-1 * var(--margin-filter));
+  margin-bottom: calc(-1 * var(--margin-filter));
+}
 
 .project h3 {
   font-style: normal;
@@ -300,6 +338,9 @@ footer {
   color: var(--grey-color);
 }
 .project li {
+  flex-basis: calc(100 / 3 - var(--margin-filter));
+  margin-left: var(--margin-filter);
+  margin-bottom: var(--margin-filter);
   width: 370px;
   height: 404px;
   left: 1015px;
@@ -307,6 +348,15 @@ footer {
   background-color: var(--white-color);
   border: 1px solid #eeeeee;
   box-sizing: border-box;
+}
+.project-list h3 {
+  margin-bottom: 8px;
+}
+.card {
+  padding-top: 20px;
+  padding-bottom: 20px;
+  padding-left: 24px;
+  padding-right: 24px;
 }
 .project :hover,
 .project :focus {
