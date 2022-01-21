@@ -171,7 +171,7 @@ h1 {
 }
 .advantage li {
   width: 270px;
-  width: calc(100% / 4 -30);
+  flex-basis: calc(100% / 4 -30);
   margin-left: 30px;
 }
 .advantage h3 {
