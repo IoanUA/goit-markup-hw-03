@@ -170,6 +170,7 @@ h1 {
   margin-left: -30px;
 }
 .advantage li {
+  width: 270px;
   width: calc(100% / 4 -30);
   margin-left: 30px;
 }
