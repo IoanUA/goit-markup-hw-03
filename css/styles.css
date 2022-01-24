@@ -27,15 +27,6 @@ ul {
   margin: 0px;
   padding: 0px;
 }
-hr {
-  position: absolute;
-  width: 1600px;
-  height: 0px;
-  left: 0px;
-  top: 80px;
-  border: 1px solid #ececec;
-}
-
 .container {
   width: 1200px;
   padding-left: 15px;
